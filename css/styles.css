@@ -366,6 +366,9 @@ footer {
 
 #footer_logo {
   width: 20%;
+  margin-top:10%; 
+  margin-bottom:10%; 
+  height:auto
   
 }
 
@@ -376,6 +379,8 @@ footer {
 
 footer #academia {
   width: 25%;
+  margin-top:6%; 
+  margin-bottom:6%
 }
 
 footer #academia h2 {
@@ -391,6 +396,8 @@ footer #academia p {
 
 footer #informacion {
   width: 35%;
+  margin-top:6%; 
+  margin-bottom:6%;
 }
 
 footer #informacion h2 {
