@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>SumaDeportes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="css/registro.css">
+    <!--<link href="css/css/fontawesome.css" rel="stylesheet" />
+    <link href="css/css/brands.css" rel="stylesheet" />
+    <link href="css/css/solid.css" rel="stylesheet" />-->
+
+
+</head>
+
+
+<body>
+
+    <img id="cintillo" src="img/cintilloMenu.png" alt="">
+
+    <div class="logoDiv">
+        <img id="logo" src="img/logo.png" alt="" onclick="window.location.href='index.html'">
+    </div>
+
+    <div class="buttons">
+        <button type="submit" id="login-button"onclick="window.location.href='iniciar_sesión.html'">Inicia sesión</button>
+        <button type="submit" id="register-button"onclick="window.location.href='registro.html'">Regístrate</button>
+
+    </div>
+
+    <div class="formulario_registro">
+
+        <div class="contenido_bloque1">           
+            <img src="img/reg_.png"  alt="" />
+        </div>
+
+        <div class="contenido_bloque2">
+            <div id="titulo_registro">
+                <p >Regístrate y comienza a sumar con nosotros</p>
+            </div>
+            <div>
+                <form>
+                    <div>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre">
+                    </div>
+                    <div>
+                        <label for="apellido">Apellido:</label>
+                        <input type="text" id="apellido" name="apellido">
+                    </div>
+                    <div>
+                        <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+                        <input type="date" id="fechaNacimiento" name="fechaNacimiento">
+                    </div>
+                    <div class="documento-container">
+                        <div>
+                            <label for="tipoDocumento">Tipo:</label>
+                            <select id="tipoDocumento" name="tipoDocumento">
+                                <option value="E">E</option>
+                                <option value="P">P</option>
+                                <option value="V" selected>V</option>
+                            </select>
+                        </div>
+                        <div id="documento" >
+                            <label for="numeroDocumento">Número de Documento:</label>
+                            <input type="text" id="numeroDocumento" name="numeroDocumento">
+                        </div>
+                    </div>
+                    <div id="boton_registro">
+                        <button type="submit" class="boton-registro">Regístrate</button>
+                    </div>
+                    <div id="cuadro">
+                <p>¿Ya tienes una cuenta?&nbsp;<span onclick="window.location.href='iniciar_sesión.html'">Inicia sesión</span></p>
+            </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div id=footer_logo>
+            <img src="img/logo_.png" alt="">
+        </div>
+        <div id="academia">
+            <h2>Academia</h2>
+            <p>¿Cursos y horarios?</p>
+            <p>¿Dónde encontrarnos?</p>
+        </div>
+        <div id="informacion">
+            <h2>Información</h2>
+            <p>Preguntas frecuentes</p>
+        </div>
+    </footer>
+    <div class="registro">
+        <div>
+            <p><span onclick="window.location.href='iniciar_sesión.html'">
+                Inicia sesión</span> <span>|</span> <span onclick="window.location.href='registro.html'" 
+                >Regístrate</span></p>
+        </div>
+        <div id="linea">
+        </div>
+        <div id="creadores">
+            <p>Suma Deportes, RIF J-00000000-0 Todos los derechos
+                reservados.
+                Powered by Lenin Manrique & Erika Díaz
+            </p>
+        </div>
+    </div>
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/jquery-ui-1.13.3/external/jquery/jquery.js"></script>
+    <script src="js/jquery-ui-1.13.3/jquery-ui.min.js"></script>
+    <!--<script src="js/main.js"></script>-->
+</body>
+
+</html>
